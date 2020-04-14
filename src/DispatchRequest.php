@@ -6,11 +6,26 @@
  * Time: 12:50
  */
 
+namespace httprequest;
+
 /**
  * Class DispatchRequest
  */
 class DispatchRequest {
+
     public function __construct() {}
+
+
+    /**
+     * Adds a single header
+     */
+    public function addHeader(): void {
+
+    }
+
+    public function addHeaders(Header $header): void {
+
+    }
 
     public function get(): void {
 
@@ -47,6 +62,7 @@ class DispatchRequest {
     public function patch(): void {
 
     }
+
 }
 
 ?>

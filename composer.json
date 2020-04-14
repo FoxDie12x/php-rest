@@ -1,7 +1,17 @@
 {
+    "name": "php-rest/php-rest",
+    "description": "A simple PHP framework for implementing a REST API",
     "autoload": {
-	"classmap": ["src/"]
+      "files": [
+        "src/env/Config.php"
+      ],
+      "classmap": [
+          "src/"
+      ]
     },
+  "require": {
+    "php": "^7.2"
+  },
     "require-dev": {
         "phpunit/phpunit": "^9"
     }
